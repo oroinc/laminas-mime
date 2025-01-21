@@ -1,6 +1,6 @@
 {
-    "name": "laminas/laminas-mime",
-    "description": "Create and parse MIME messages and parts",
+    "name": "oroinc/laminas-mime",
+    "description": "A fork of laminas-mime that enables PHP 8.4 support",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
@@ -21,9 +21,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
-    "abandoned": "symfony/mime",
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
         "laminas/laminas-stdlib": "^2.7 || ^3.0"
     },
     "require-dev": {
